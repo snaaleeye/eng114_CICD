@@ -30,6 +30,8 @@ Great range of plugins available, Jenkins supports building, deploying, and auto
 
 ## What are the benefits of CICD pipeline?
 
+Make sure to check cost-benefit analysis
+
 1. Reduce risk
 
 With a CI/CD pipeline, you can test and deploy code more frequently, giving testers the ability to detect issues as soon as they occur and to fix them immediately. You are essentially mitigating risks in real time.
@@ -78,4 +80,18 @@ One of the biggest advantages of a CI/CD pipeline is you can roll back changes q
 - Atlassian Bamboo
 -  <img width="1013" alt="Screenshot 2022-06-16 at 11 55 30" src="https://user-images.githubusercontent.com/105854053/174055492-c55ef424-3955-403b-97f2-168d7182f10f.png">
 
+
+# Plan
+- Generate ssh key pair on localhost in .ssh folder
+- Copy the 114 114.pub key to our github
+- Test the ssh connection 
+
+
+Follow these steps but ignore 
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+
+Public key on GitHub
+Private key on Jenkins
+
+pbcopy < public/privatekey 
 
