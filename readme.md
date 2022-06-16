@@ -12,11 +12,17 @@ Continuous Deployment (CDE) goes one step further than continuous delivery, with
 
 ## What is the difference between CD & CDE use cases?
 
+CD is an extension of CI and CDE is a further extension of CD. While CI focuses on helping developers by ensuring each bit of new code is bug-free and functional, CD is more about releasing updates and changes in a quick and safe manner. CDE is about creating a unified pipeline for software releases and increasing the velocity of delivery. Combining all three means that when new source code is committed it can be deployed to production automatically and within minutes (or even seconds!), assuming it passes all the relevant tests. 
+
+
 ## What is Jenkins?
 
 Jenkins is an open-source automation server in which the central build and CI process take place, It is a Java-based program with packages for Windows, macOS, & Linux.
 
 Great range of plugins available, Jenkins supports building, deploying, and automating for software development projects, easy installation, simple and user-friendly interface, extensible with huge community-contributed plugin resource, easy environment configuration in user interface & supports distributed builds with master-slave architecture.
+
+<img width="1208" alt="Screenshot 2022-06-16 at 11 56 39" src="https://user-images.githubusercontent.com/105854053/174055705-4ed83bb4-fc38-4f30-9365-5dd58808e11e.png">
+
 
 ## What are the benefits of CICD pipeline?
 
@@ -64,5 +70,7 @@ One of the biggest advantages of a CI/CD pipeline is you can roll back changes q
 
 - Travis CL
 
-- Atlassian Bamboo 
+- Atlassian Bamboo
+-  <img width="1013" alt="Screenshot 2022-06-16 at 11 55 30" src="https://user-images.githubusercontent.com/105854053/174055492-c55ef424-3955-403b-97f2-168d7182f10f.png">
+
 
