@@ -116,3 +116,6 @@ Step 4: Max # of builds to keep - 3
 Step 5: Build - Execute shell - command
 Step 6: Build Post-Build Actions - Build other projects
 Step 7: Build now - Console output
+
+![My First Board (1)](https://user-images.githubusercontent.com/105854053/174122912-223e8975-413a-46ad-bb6f-56d62225bde7.jpg)
+
