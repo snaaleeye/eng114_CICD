@@ -29,6 +29,7 @@ Great range of plugins available, Jenkins supports building, deploying, and auto
 ## What are the benefits of CICD pipeline?
 
 1. Reduce risk
+
 With a CI/CD pipeline, you can test and deploy code more frequently, giving testers the ability to detect issues as soon as they occur and to fix them immediately. You are essentially mitigating risks in real time.
 
 2. Deliver faster
