@@ -14,6 +14,8 @@ Continuous Deployment (CDE) goes one step further than continuous delivery, with
 
 CD is an extension of CI and CDE is a further extension of CD. While CI focuses on helping developers by ensuring each bit of new code is bug-free and functional, CD is more about releasing updates and changes in a quick and safe manner. CDE is about creating a unified pipeline for software releases and increasing the velocity of delivery. Combining all three means that when new source code is committed it can be deployed to production automatically and within minutes (or even seconds!), assuming it passes all the relevant tests. 
 
+<img width="749" alt="Screenshot 2022-06-16 at 11 59 24" src="https://user-images.githubusercontent.com/105854053/174056100-9f0fbdf3-46ac-4493-966b-1c1ac275bcb2.png">
+
 
 ## What is Jenkins?
 
