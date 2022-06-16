@@ -87,11 +87,32 @@ One of the biggest advantages of a CI/CD pipeline is you can roll back changes q
 - Test the ssh connection 
 
 
-Follow these steps but ignore 
-https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+## SSH Keys GitHub
+
+Inside .ssh folder
+1. ssh-keygen -t ed25519 -C "your_email@example.com"
+2. eval "$(ssh-agent -s)"
+3. ssh-add ~/.ssh/KEY NAME
 
 Public key on GitHub
 Private key on Jenkins
 
 pbcopy < public/privatekey 
 
+Inside GitHub repository
+1. Settings
+2. Deploy keys 
+3. Add deploy keys
+
+
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+# Jenkins Steps
+
+Step 1: New Item
+Step 2: Enter an item name + freestyle project
+Step 3: Discard old builds
+Step 4: Max # of builds to keep - 3
+Step 5: Build - Execute shell - command
+Step 6: Build Post-Build Actions - Build other projects
+Step 7: Build now - Console output
