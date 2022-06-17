@@ -160,5 +160,8 @@ cd app
 npm install
 npm test
 
-Step 8: Post-Build Actions:
+Step 8: Post-Build Action
+
+<img width="949" alt="Screenshot 2022-06-17 at 15 56 29" src="https://user-images.githubusercontent.com/105854053/174324959-b40ba75a-9fcf-41d6-b19e-eae83131ddb6.png">
+s:
 
