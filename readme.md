@@ -125,3 +125,40 @@ Step 7: Build now - Console output
 
 ![My First Board (1)](https://user-images.githubusercontent.com/105854053/174122912-223e8975-413a-46ad-bb6f-56d62225bde7.jpg)
 
+
+# How to create Webhook 
+
+Step 1: Navigate to the settings of your repository and select Webhooks
+
+Step 2: Add Webhooks
+
+Step 3: In the payload URL add your jenkins URL
+
+Step 4: Trigger "Just the push event"
+
+Step 5: Press Add Webhook
+
+Step 6: Navigate back to jenkins and in the configuration tick GitHub hook trigger for GITScm polling
+
+# Jenkins - Dev Branch to Main branch if test pass
+
+Step 1: Create a new dev branch locally
+
+Step 2: Follow git commands to connect this to github
+
+Step 3: Follow steps above to create new item
+
+Step 4: Changed branches to build specifier from main to /dev
+
+Step 5: Tick GitHub hook trigger for GITScm polling
+
+Step 6: Tick Provide NodeJS Installation
+
+Step 7: Build Execute Shell and insert the following
+
+cd app
+npm install
+npm test
+
+Step 8: Post-Build Actions:
+
