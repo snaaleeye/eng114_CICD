@@ -165,3 +165,8 @@ Step 8: Post-Build Action
 <img width="949" alt="Screenshot 2022-06-17 at 15 56 29" src="https://user-images.githubusercontent.com/105854053/174324959-b40ba75a-9fcf-41d6-b19e-eae83131ddb6.png">
 s:
 
+In order to test this worked, nano readme.md and add information.
+
+Then check if jenkins runs a new job and if github is updated. 
+
+If this is the case, then you have done this correctly. 
