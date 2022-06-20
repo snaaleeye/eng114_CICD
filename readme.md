@@ -250,8 +250,9 @@ ubuntu@54.217.28.201:/home/ubuntu/`
 This last step has to be done manually.
 
 cd app/app
-npm install
-nohup node app.js > /dev/null 2>&1 &
+`npm install`
+
+`nohup node app.js > /dev/null 2>&1 &`
 
 ![Screenshot_(176)](https://user-images.githubusercontent.com/105854053/174642947-2729d0f3-96ea-402a-90a6-dbba08323482.png)
 
