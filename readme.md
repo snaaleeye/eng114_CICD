@@ -185,3 +185,18 @@ In order to test this worked, nano readme.md and add information.
 Then check if jenkins runs a new job and if github is updated. 
 
 If this is the case, then you have done this correctly. 
+
+## Setup App through Jenkins on AWS instance
+
+<img width="805" alt="Screenshot 2022-06-20 at 16 10 44" src="https://user-images.githubusercontent.com/105854053/174632025-ef0f37c5-8036-4ad8-8d87-c093ba9efc3a.png">
+
+<img width="775" alt="Screenshot 2022-06-20 at 16 12 09" src="https://user-images.githubusercontent.com/105854053/174632380-d55142f5-627d-49c0-baf4-fba42a7d4da6.png">
+
+<img width="812" alt="Screenshot 2022-06-20 at 16 13 11" src="https://user-images.githubusercontent.com/105854053/174632442-12f129c1-8aa4-4326-bd4d-4705f00dc6c3.png">
+
+<img width="798" alt="Screenshot 2022-06-20 at 16 13 28" src="https://user-images.githubusercontent.com/105854053/174632505-26069e0f-1d2c-43eb-bfed-71bf1595c9a8.png">
+
+<img width="1080" alt="Screenshot 2022-06-20 at 16 14 04" src="https://user-images.githubusercontent.com/105854053/174632605-6149ed29-d6e5-4551-9099-023010d8ae12.png">
+
+
+
