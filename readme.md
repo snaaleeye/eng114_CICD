@@ -188,6 +188,12 @@ If this is the case, then you have done this correctly.
 
 ## Setup App through Jenkins on AWS instance
 
+Plan Diagram
+
+<img width="898" alt="Screenshot 2022-06-20 at 17 11 16" src="https://user-images.githubusercontent.com/105854053/174642844-19230e39-9b08-4550-bde2-81991d84674c.png">
+
+
+
 Firstly, set up your EC instance using these security groups.
 This will allow jenkins ssh. 
 <img width="998" alt="Screenshot 2022-06-20 at 16 16 15" src="https://user-images.githubusercontent.com/105854053/174633155-e98f4398-3580-47e7-a303-025b455ff6ee.png">
@@ -219,3 +225,9 @@ sudo apt-get install nginx -y
 sudo systemctl start nginx
 sudo systemctl enable nginx
 sudo systemctl status nginx
+ 
+![Screenshot_(176)](https://user-images.githubusercontent.com/105854053/174642947-2729d0f3-96ea-402a-90a6-dbba08323482.png)
+
+                                                        
+                                                              
+                                                              
