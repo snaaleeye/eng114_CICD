@@ -193,7 +193,6 @@ Plan Diagram
 <img width="898" alt="Screenshot 2022-06-20 at 17 11 16" src="https://user-images.githubusercontent.com/105854053/174642844-19230e39-9b08-4550-bde2-81991d84674c.png">
 
 
-
 Firstly, set up your EC instance using these security groups.
 This will allow jenkins ssh. 
 <img width="998" alt="Screenshot 2022-06-20 at 16 16 15" src="https://user-images.githubusercontent.com/105854053/174633155-e98f4398-3580-47e7-a303-025b455ff6ee.png">
@@ -209,7 +208,6 @@ Then move over to jenkins and start a new job following the steps below
 
 <img width="798" alt="Screenshot 2022-06-20 at 16 13 28" src="https://user-images.githubusercontent.com/105854053/174632505-26069e0f-1d2c-43eb-bfed-71bf1595c9a8.png">
 
-
 <img width="944" alt="Screenshot 2022-06-20 at 16 19 57" src="https://user-images.githubusercontent.com/105854053/174633909-1a99dde1-6a4a-41ee-9b28-41fe360cb47d.png">
 
 The below are the commands:
@@ -218,13 +216,20 @@ The below are the commands:
 
 scp -v -r -o StrictHostKeyChecking=no eng114_dev_ops/ 
 ubuntu@54.217.28.201:/home/ubuntu/
+
 ssh -A -o StrictHostKeyChecking=no ubuntu@54.217.28.201 <<EOF
-sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt-get install nginx -y
-sudo systemctl start nginx
-sudo systemctl enable nginx
-sudo systemctl status nginx
+
+`sudo apt-get update -y`
+
+`sudo apt-get upgrade -y`
+
+`sudo apt-get install nginx -y`
+
+`sudo systemctl start nginx`
+
+`sudo systemctl enable nginx`
+
+`sudo systemctl status nginx`
  
 ![Screenshot_(176)](https://user-images.githubusercontent.com/105854053/174642947-2729d0f3-96ea-402a-90a6-dbba08323482.png)
 
