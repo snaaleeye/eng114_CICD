@@ -188,6 +188,13 @@ If this is the case, then you have done this correctly.
 
 ## Setup App through Jenkins on AWS instance
 
+Firstly, set up your EC instance using these security groups.
+This will allow jenkins ssh. 
+<img width="998" alt="Screenshot 2022-06-20 at 16 16 15" src="https://user-images.githubusercontent.com/105854053/174633155-e98f4398-3580-47e7-a303-025b455ff6ee.png">
+
+Then move over to jenkins and start a new job following the steps below
+
+
 <img width="805" alt="Screenshot 2022-06-20 at 16 10 44" src="https://user-images.githubusercontent.com/105854053/174632025-ef0f37c5-8036-4ad8-8d87-c093ba9efc3a.png">
 
 <img width="775" alt="Screenshot 2022-06-20 at 16 12 09" src="https://user-images.githubusercontent.com/105854053/174632380-d55142f5-627d-49c0-baf4-fba42a7d4da6.png">
