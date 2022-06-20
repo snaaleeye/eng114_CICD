@@ -204,6 +204,8 @@ Then move over to jenkins and start a new job following the steps below
 <img width="798" alt="Screenshot 2022-06-20 at 16 13 28" src="https://user-images.githubusercontent.com/105854053/174632505-26069e0f-1d2c-43eb-bfed-71bf1595c9a8.png">
 
 
+<img width="944" alt="Screenshot 2022-06-20 at 16 19 57" src="https://user-images.githubusercontent.com/105854053/174633909-1a99dde1-6a4a-41ee-9b28-41fe360cb47d.png">
+
 
 
 
