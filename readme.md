@@ -230,7 +230,23 @@ ssh -A -o StrictHostKeyChecking=no ubuntu@54.217.28.201 <<EOF
 `sudo systemctl enable nginx`
 
 `sudo systemctl status nginx`
+
+`curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -`
+
+`sudo apt-get install -y nodejs`
+
+`sudo npm install pm2 -g`
+
+`sudo apt-get install python-software-properties -y`
+
+`sudo cp default /etc/nginx/sites-available`
  
+`sudo nginx -t`
+
+`sudo systemctl restart nginx`
+
+`sudo systemctl enable nginx`
+
 ![Screenshot_(176)](https://user-images.githubusercontent.com/105854053/174642947-2729d0f3-96ea-402a-90a6-dbba08323482.png)
 
                                                         
