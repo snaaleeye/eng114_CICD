@@ -207,5 +207,14 @@ Then move over to jenkins and start a new job following the steps below
 <img width="944" alt="Screenshot 2022-06-20 at 16 19 57" src="https://user-images.githubusercontent.com/105854053/174633909-1a99dde1-6a4a-41ee-9b28-41fe360cb47d.png">
 
 
+#!/bin/bash
 
-
+scp -v -r -o StrictHostKeyChecking=no eng114_dev_ops/ 
+ubuntu@54.217.28.201:/home/ubuntu/
+ssh -A -o StrictHostKeyChecking=no ubuntu@54.217.28.201 <<EOF
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt-get install nginx -y
+sudo systemctl start nginx
+sudo systemctl enable nginx
+sudo systemctl status nginx
