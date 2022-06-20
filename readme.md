@@ -16,6 +16,18 @@ https://medium.com/@ahshahkhan/devops-culture-and-cicd-3761cfc62450
 
 CD is an extension of CI and CDE is a further extension of CD. While CI focuses on helping developers by ensuring each bit of new code is bug-free and functional, CD is more about releasing updates and changes in a quick and safe manner. CDE is about creating a unified pipeline for software releases and increasing the velocity of delivery. Combining all three means that when new source code is committed it can be deployed to production automatically and within minutes (or even seconds!), assuming it passes all the relevant tests. 
 
+Example: Films during covid
+Continuous Delivery, planned, desiged, pushed, tested, passed. 
+Unable to deploy to cinemas - needed to add more to movies to compete. 
+
+Example: Banks 
+Service maintenance, app will be down. Ready to deploy but do not want to 
+deploy on normal days and wait until nights/weekends. 
+
+Example: Can't stop service
+Amazon, Facebook, Netflix never down - Cannot afford to take service down 
+and add feature and release. They use CICD to stay active.
+
 <img width="749" alt="Screenshot 2022-06-16 at 11 59 24" src="https://user-images.githubusercontent.com/105854053/174056100-9f0fbdf3-46ac-4493-966b-1c1ac275bcb2.png">
 
 
