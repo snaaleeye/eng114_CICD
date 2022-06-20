@@ -214,10 +214,10 @@ The below are the commands:
 
 #!/bin/bash
 
-scp -v -r -o StrictHostKeyChecking=no eng114_dev_ops/ 
-ubuntu@54.217.28.201:/home/ubuntu/
+`scp -v -r -o StrictHostKeyChecking=no app/ 
+ubuntu@54.217.28.201:/home/ubuntu/`
 
-ssh -A -o StrictHostKeyChecking=no ubuntu@54.217.28.201 <<EOF
+`ssh -A -o StrictHostKeyChecking=no ubuntu@54.217.28.201 <<EOF`
 
 `sudo apt-get update -y`
 
