@@ -28,6 +28,10 @@ Example: Can't stop service
 Amazon, Facebook, Netflix never down - Cannot afford to take service down 
 and add feature and release. They use CICD to stay active.
 
+Example: Facebook, Whatsapp, Instagram down due to CDE.
+A bug was used in the CDE that took down the servers and took 6 hours to 
+fix. 
+
 <img width="749" alt="Screenshot 2022-06-16 at 11 59 24" src="https://user-images.githubusercontent.com/105854053/174056100-9f0fbdf3-46ac-4493-966b-1c1ac275bcb2.png">
 
 
