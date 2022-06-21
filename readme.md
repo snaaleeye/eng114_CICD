@@ -295,4 +295,4 @@ Step 5: Setting up Jenkins
 https://linuxize.com/post/how-to-install-jenkins-on-ubuntu-18-04/
                          
                                                               
-                                                              
+`sudo cat /var/lib/jenkins/secrets/initialAdminPassword`
