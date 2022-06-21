@@ -258,6 +258,41 @@ cd app/app
 ![Screenshot_(176)](https://user-images.githubusercontent.com/105854053/174642947-2729d0f3-96ea-402a-90a6-dbba08323482.png)
 
 
-                                                        
+## How to install Jenkins
+
+Step 1: Install Java
+
+`sudo apt update`
+
+`sudo apt install openjdk-8-jdk`
+
+Step 2: Add the Jenkins Debian Repository
+
+`wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key 
+add -`
+
+- The command output should be OK
+
+`sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > 
+/etc/apt/sources.list.d/jenkins.list'`
+
+Step 3: Install Jenkins
+
+`sudo apt update`
+
+`sudo apt install jenkins`
+
+`systemctl status jenkins`
+
+Step 4: Adjust Firewall
+
+`sudo ufw allow 8080`
+
+`sudo ufw status`
+
+Step 5: Setting up Jenkins
+
+https://linuxize.com/post/how-to-install-jenkins-on-ubuntu-18-04/
+                         
                                                               
                                                               
