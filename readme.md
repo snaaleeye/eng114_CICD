@@ -290,6 +290,10 @@ Step 4: Adjust Firewall
 
 `sudo ufw status`
 
+if firewall inactive
+sudo ufw allow OpenSSH
+sudo ufw enable
+
 Step 5: Setting up Jenkins
 
 https://linuxize.com/post/how-to-install-jenkins-on-ubuntu-18-04/
